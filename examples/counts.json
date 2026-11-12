@@ -1,0 +1,9 @@
+{
+  "initial": 1000,
+  "causes": ["A", "B"],
+  "rows": [
+    {"time": 1, "events": [200, 300], "censored": 0},
+    {"time": 2, "events": [100, 150], "censored": 250}
+  ],
+  "query_times": [0, 1, 2]
+}

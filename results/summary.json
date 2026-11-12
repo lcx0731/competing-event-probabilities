@@ -1,0 +1,1075 @@
+{
+  "data": "Deterministic synthetic integer counts; no sampled or real observations.",
+  "constant_hazards": {
+    "target_hazard": "1/10",
+    "horizon": 5,
+    "curves": {
+      "0": {
+        "initial": 100000,
+        "causes": [
+          "A",
+          "B"
+        ],
+        "support_end": 5,
+        "tie_convention": "Events use the pre-removal risk set; tied censoring is removed afterward.",
+        "arithmetic": "Exact rational point estimates from supplied integer counts; not confidence bounds.",
+        "points": [
+          {
+            "time": 1,
+            "at_risk": 100000,
+            "events": [
+              10000,
+              0
+            ],
+            "censored": 0,
+            "remaining": 90000,
+            "survival": "9/10",
+            "cumulative_incidence": [
+              "1/10",
+              "0"
+            ],
+            "net_risk": [
+              "1/10",
+              "0"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "0"
+            ]
+          },
+          {
+            "time": 2,
+            "at_risk": 90000,
+            "events": [
+              9000,
+              0
+            ],
+            "censored": 0,
+            "remaining": 81000,
+            "survival": "81/100",
+            "cumulative_incidence": [
+              "19/100",
+              "0"
+            ],
+            "net_risk": [
+              "19/100",
+              "0"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "0"
+            ]
+          },
+          {
+            "time": 3,
+            "at_risk": 81000,
+            "events": [
+              8100,
+              0
+            ],
+            "censored": 0,
+            "remaining": 72900,
+            "survival": "729/1000",
+            "cumulative_incidence": [
+              "271/1000",
+              "0"
+            ],
+            "net_risk": [
+              "271/1000",
+              "0"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "0"
+            ]
+          },
+          {
+            "time": 4,
+            "at_risk": 72900,
+            "events": [
+              7290,
+              0
+            ],
+            "censored": 0,
+            "remaining": 65610,
+            "survival": "6561/10000",
+            "cumulative_incidence": [
+              "3439/10000",
+              "0"
+            ],
+            "net_risk": [
+              "3439/10000",
+              "0"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "0"
+            ]
+          },
+          {
+            "time": 5,
+            "at_risk": 65610,
+            "events": [
+              6561,
+              0
+            ],
+            "censored": 59049,
+            "remaining": 0,
+            "survival": "59049/100000",
+            "cumulative_incidence": [
+              "40951/100000",
+              "0"
+            ],
+            "net_risk": [
+              "40951/100000",
+              "0"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "0"
+            ]
+          }
+        ],
+        "scope": "All subjects enter at baseline. Interpreting incidence as population probability requires suitable independent censoring and follow-up support."
+      },
+      "1/10": {
+        "initial": 100000,
+        "causes": [
+          "A",
+          "B"
+        ],
+        "support_end": 5,
+        "tie_convention": "Events use the pre-removal risk set; tied censoring is removed afterward.",
+        "arithmetic": "Exact rational point estimates from supplied integer counts; not confidence bounds.",
+        "points": [
+          {
+            "time": 1,
+            "at_risk": 100000,
+            "events": [
+              10000,
+              10000
+            ],
+            "censored": 0,
+            "remaining": 80000,
+            "survival": "4/5",
+            "cumulative_incidence": [
+              "1/10",
+              "1/10"
+            ],
+            "net_risk": [
+              "1/10",
+              "1/10"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "1/10"
+            ]
+          },
+          {
+            "time": 2,
+            "at_risk": 80000,
+            "events": [
+              8000,
+              8000
+            ],
+            "censored": 0,
+            "remaining": 64000,
+            "survival": "16/25",
+            "cumulative_incidence": [
+              "9/50",
+              "9/50"
+            ],
+            "net_risk": [
+              "19/100",
+              "19/100"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "1/10"
+            ]
+          },
+          {
+            "time": 3,
+            "at_risk": 64000,
+            "events": [
+              6400,
+              6400
+            ],
+            "censored": 0,
+            "remaining": 51200,
+            "survival": "64/125",
+            "cumulative_incidence": [
+              "61/250",
+              "61/250"
+            ],
+            "net_risk": [
+              "271/1000",
+              "271/1000"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "1/10"
+            ]
+          },
+          {
+            "time": 4,
+            "at_risk": 51200,
+            "events": [
+              5120,
+              5120
+            ],
+            "censored": 0,
+            "remaining": 40960,
+            "survival": "256/625",
+            "cumulative_incidence": [
+              "369/1250",
+              "369/1250"
+            ],
+            "net_risk": [
+              "3439/10000",
+              "3439/10000"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "1/10"
+            ]
+          },
+          {
+            "time": 5,
+            "at_risk": 40960,
+            "events": [
+              4096,
+              4096
+            ],
+            "censored": 32768,
+            "remaining": 0,
+            "survival": "1024/3125",
+            "cumulative_incidence": [
+              "2101/6250",
+              "2101/6250"
+            ],
+            "net_risk": [
+              "40951/100000",
+              "40951/100000"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "1/10"
+            ]
+          }
+        ],
+        "scope": "All subjects enter at baseline. Interpreting incidence as population probability requires suitable independent censoring and follow-up support."
+      },
+      "3/10": {
+        "initial": 100000,
+        "causes": [
+          "A",
+          "B"
+        ],
+        "support_end": 5,
+        "tie_convention": "Events use the pre-removal risk set; tied censoring is removed afterward.",
+        "arithmetic": "Exact rational point estimates from supplied integer counts; not confidence bounds.",
+        "points": [
+          {
+            "time": 1,
+            "at_risk": 100000,
+            "events": [
+              10000,
+              30000
+            ],
+            "censored": 0,
+            "remaining": 60000,
+            "survival": "3/5",
+            "cumulative_incidence": [
+              "1/10",
+              "3/10"
+            ],
+            "net_risk": [
+              "1/10",
+              "3/10"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "3/10"
+            ]
+          },
+          {
+            "time": 2,
+            "at_risk": 60000,
+            "events": [
+              6000,
+              18000
+            ],
+            "censored": 0,
+            "remaining": 36000,
+            "survival": "9/25",
+            "cumulative_incidence": [
+              "4/25",
+              "12/25"
+            ],
+            "net_risk": [
+              "19/100",
+              "51/100"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "3/10"
+            ]
+          },
+          {
+            "time": 3,
+            "at_risk": 36000,
+            "events": [
+              3600,
+              10800
+            ],
+            "censored": 0,
+            "remaining": 21600,
+            "survival": "27/125",
+            "cumulative_incidence": [
+              "49/250",
+              "147/250"
+            ],
+            "net_risk": [
+              "271/1000",
+              "657/1000"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "3/10"
+            ]
+          },
+          {
+            "time": 4,
+            "at_risk": 21600,
+            "events": [
+              2160,
+              6480
+            ],
+            "censored": 0,
+            "remaining": 12960,
+            "survival": "81/625",
+            "cumulative_incidence": [
+              "136/625",
+              "408/625"
+            ],
+            "net_risk": [
+              "3439/10000",
+              "7599/10000"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "3/10"
+            ]
+          },
+          {
+            "time": 5,
+            "at_risk": 12960,
+            "events": [
+              1296,
+              3888
+            ],
+            "censored": 7776,
+            "remaining": 0,
+            "survival": "243/3125",
+            "cumulative_incidence": [
+              "1441/6250",
+              "4323/6250"
+            ],
+            "net_risk": [
+              "40951/100000",
+              "83193/100000"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "3/10"
+            ]
+          }
+        ],
+        "scope": "All subjects enter at baseline. Interpreting incidence as population probability requires suitable independent censoring and follow-up support."
+      },
+      "3/5": {
+        "initial": 100000,
+        "causes": [
+          "A",
+          "B"
+        ],
+        "support_end": 5,
+        "tie_convention": "Events use the pre-removal risk set; tied censoring is removed afterward.",
+        "arithmetic": "Exact rational point estimates from supplied integer counts; not confidence bounds.",
+        "points": [
+          {
+            "time": 1,
+            "at_risk": 100000,
+            "events": [
+              10000,
+              60000
+            ],
+            "censored": 0,
+            "remaining": 30000,
+            "survival": "3/10",
+            "cumulative_incidence": [
+              "1/10",
+              "3/5"
+            ],
+            "net_risk": [
+              "1/10",
+              "3/5"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "3/5"
+            ]
+          },
+          {
+            "time": 2,
+            "at_risk": 30000,
+            "events": [
+              3000,
+              18000
+            ],
+            "censored": 0,
+            "remaining": 9000,
+            "survival": "9/100",
+            "cumulative_incidence": [
+              "13/100",
+              "39/50"
+            ],
+            "net_risk": [
+              "19/100",
+              "21/25"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "3/5"
+            ]
+          },
+          {
+            "time": 3,
+            "at_risk": 9000,
+            "events": [
+              900,
+              5400
+            ],
+            "censored": 0,
+            "remaining": 2700,
+            "survival": "27/1000",
+            "cumulative_incidence": [
+              "139/1000",
+              "417/500"
+            ],
+            "net_risk": [
+              "271/1000",
+              "117/125"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "3/5"
+            ]
+          },
+          {
+            "time": 4,
+            "at_risk": 2700,
+            "events": [
+              270,
+              1620
+            ],
+            "censored": 0,
+            "remaining": 810,
+            "survival": "81/10000",
+            "cumulative_incidence": [
+              "1417/10000",
+              "4251/5000"
+            ],
+            "net_risk": [
+              "3439/10000",
+              "609/625"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "3/5"
+            ]
+          },
+          {
+            "time": 5,
+            "at_risk": 810,
+            "events": [
+              81,
+              486
+            ],
+            "censored": 243,
+            "remaining": 0,
+            "survival": "243/100000",
+            "cumulative_incidence": [
+              "14251/100000",
+              "42753/50000"
+            ],
+            "net_risk": [
+              "40951/100000",
+              "3093/3125"
+            ],
+            "cause_hazards": [
+              "1/10",
+              "3/5"
+            ]
+          }
+        ],
+        "scope": "All subjects enter at baseline. Interpreting incidence as population probability requires suitable independent censoring and follow-up support."
+      }
+    }
+  },
+  "censoring": {
+    "complete": {
+      "initial": 1000,
+      "causes": [
+        "A",
+        "B"
+      ],
+      "support_end": 2,
+      "tie_convention": "Events use the pre-removal risk set; tied censoring is removed afterward.",
+      "arithmetic": "Exact rational point estimates from supplied integer counts; not confidence bounds.",
+      "points": [
+        {
+          "time": 1,
+          "at_risk": 1000,
+          "events": [
+            200,
+            300
+          ],
+          "censored": 0,
+          "remaining": 500,
+          "survival": "1/2",
+          "cumulative_incidence": [
+            "1/5",
+            "3/10"
+          ],
+          "net_risk": [
+            "1/5",
+            "3/10"
+          ],
+          "cause_hazards": [
+            "1/5",
+            "3/10"
+          ]
+        },
+        {
+          "time": 2,
+          "at_risk": 500,
+          "events": [
+            100,
+            150
+          ],
+          "censored": 250,
+          "remaining": 0,
+          "survival": "1/4",
+          "cumulative_incidence": [
+            "3/10",
+            "9/20"
+          ],
+          "net_risk": [
+            "9/25",
+            "51/100"
+          ],
+          "cause_hazards": [
+            "1/5",
+            "3/10"
+          ]
+        }
+      ],
+      "scope": "All subjects enter at baseline. Interpreting incidence as population probability requires suitable independent censoring and follow-up support."
+    },
+    "proportional": {
+      "initial": 1000,
+      "causes": [
+        "A",
+        "B"
+      ],
+      "support_end": 2,
+      "tie_convention": "Events use the pre-removal risk set; tied censoring is removed afterward.",
+      "arithmetic": "Exact rational point estimates from supplied integer counts; not confidence bounds.",
+      "points": [
+        {
+          "time": 0,
+          "at_risk": 1000,
+          "events": [
+            0,
+            0
+          ],
+          "censored": 300,
+          "remaining": 700,
+          "survival": "1",
+          "cumulative_incidence": [
+            "0",
+            "0"
+          ],
+          "net_risk": [
+            "0",
+            "0"
+          ],
+          "cause_hazards": [
+            "0",
+            "0"
+          ]
+        },
+        {
+          "time": 1,
+          "at_risk": 700,
+          "events": [
+            140,
+            210
+          ],
+          "censored": 0,
+          "remaining": 350,
+          "survival": "1/2",
+          "cumulative_incidence": [
+            "1/5",
+            "3/10"
+          ],
+          "net_risk": [
+            "1/5",
+            "3/10"
+          ],
+          "cause_hazards": [
+            "1/5",
+            "3/10"
+          ]
+        },
+        {
+          "time": 2,
+          "at_risk": 350,
+          "events": [
+            70,
+            105
+          ],
+          "censored": 175,
+          "remaining": 0,
+          "survival": "1/4",
+          "cumulative_incidence": [
+            "3/10",
+            "9/20"
+          ],
+          "net_risk": [
+            "9/25",
+            "51/100"
+          ],
+          "cause_hazards": [
+            "1/5",
+            "3/10"
+          ]
+        }
+      ],
+      "scope": "All subjects enter at baseline. Interpreting incidence as population probability requires suitable independent censoring and follow-up support."
+    },
+    "informative": {
+      "initial": 1000,
+      "causes": [
+        "A",
+        "B"
+      ],
+      "support_end": 2,
+      "tie_convention": "Events use the pre-removal risk set; tied censoring is removed afterward.",
+      "arithmetic": "Exact rational point estimates from supplied integer counts; not confidence bounds.",
+      "points": [
+        {
+          "time": 0,
+          "at_risk": 1000,
+          "events": [
+            0,
+            0
+          ],
+          "censored": 300,
+          "remaining": 700,
+          "survival": "1",
+          "cumulative_incidence": [
+            "0",
+            "0"
+          ],
+          "net_risk": [
+            "0",
+            "0"
+          ],
+          "cause_hazards": [
+            "0",
+            "0"
+          ]
+        },
+        {
+          "time": 1,
+          "at_risk": 700,
+          "events": [
+            0,
+            300
+          ],
+          "censored": 0,
+          "remaining": 400,
+          "survival": "4/7",
+          "cumulative_incidence": [
+            "0",
+            "3/7"
+          ],
+          "net_risk": [
+            "0",
+            "3/7"
+          ],
+          "cause_hazards": [
+            "0",
+            "3/7"
+          ]
+        },
+        {
+          "time": 2,
+          "at_risk": 400,
+          "events": [
+            0,
+            150
+          ],
+          "censored": 250,
+          "remaining": 0,
+          "survival": "5/14",
+          "cumulative_incidence": [
+            "0",
+            "9/14"
+          ],
+          "net_risk": [
+            "0",
+            "9/14"
+          ],
+          "cause_hazards": [
+            "0",
+            "3/8"
+          ]
+        }
+      ],
+      "scope": "All subjects enter at baseline. Interpreting incidence as population probability requires suitable independent censoring and follow-up support."
+    },
+    "proportional_description": "Exactly 30% removed at time zero within each latent outcome category; a balanced deterministic construction, not a random-censoring simulation."
+  },
+  "nonidentification": {
+    "same_observed_individual_records": true,
+    "latent_world_A": {
+      "initial": 1000,
+      "causes": [
+        "A",
+        "B"
+      ],
+      "support_end": 2,
+      "tie_convention": "Events use the pre-removal risk set; tied censoring is removed afterward.",
+      "arithmetic": "Exact rational point estimates from supplied integer counts; not confidence bounds.",
+      "points": [
+        {
+          "time": 1,
+          "at_risk": 1000,
+          "events": [
+            200,
+            300
+          ],
+          "censored": 0,
+          "remaining": 500,
+          "survival": "1/2",
+          "cumulative_incidence": [
+            "1/5",
+            "3/10"
+          ],
+          "net_risk": [
+            "1/5",
+            "3/10"
+          ],
+          "cause_hazards": [
+            "1/5",
+            "3/10"
+          ]
+        },
+        {
+          "time": 2,
+          "at_risk": 500,
+          "events": [
+            100,
+            150
+          ],
+          "censored": 250,
+          "remaining": 0,
+          "survival": "1/4",
+          "cumulative_incidence": [
+            "3/10",
+            "9/20"
+          ],
+          "net_risk": [
+            "9/25",
+            "51/100"
+          ],
+          "cause_hazards": [
+            "1/5",
+            "3/10"
+          ]
+        }
+      ],
+      "scope": "All subjects enter at baseline. Interpreting incidence as population probability requires suitable independent censoring and follow-up support."
+    },
+    "latent_world_B": {
+      "initial": 1000,
+      "causes": [
+        "A",
+        "B"
+      ],
+      "support_end": 2,
+      "tie_convention": "Events use the pre-removal risk set; tied censoring is removed afterward.",
+      "arithmetic": "Exact rational point estimates from supplied integer counts; not confidence bounds.",
+      "points": [
+        {
+          "time": 1,
+          "at_risk": 1000,
+          "events": [
+            0,
+            300
+          ],
+          "censored": 0,
+          "remaining": 700,
+          "survival": "7/10",
+          "cumulative_incidence": [
+            "0",
+            "3/10"
+          ],
+          "net_risk": [
+            "0",
+            "3/10"
+          ],
+          "cause_hazards": [
+            "0",
+            "3/10"
+          ]
+        },
+        {
+          "time": 2,
+          "at_risk": 700,
+          "events": [
+            0,
+            150
+          ],
+          "censored": 550,
+          "remaining": 0,
+          "survival": "11/20",
+          "cumulative_incidence": [
+            "0",
+            "9/20"
+          ],
+          "net_risk": [
+            "0",
+            "9/20"
+          ],
+          "cause_hazards": [
+            "0",
+            "3/14"
+          ]
+        }
+      ],
+      "scope": "All subjects enter at baseline. Interpreting incidence as population probability requires suitable independent censoring and follow-up support."
+    },
+    "hidden_record_count": 300,
+    "observed": {
+      "initial": 1000,
+      "causes": [
+        "A",
+        "B"
+      ],
+      "support_end": 2,
+      "tie_convention": "Events use the pre-removal risk set; tied censoring is removed afterward.",
+      "arithmetic": "Exact rational point estimates from supplied integer counts; not confidence bounds.",
+      "points": [
+        {
+          "time": 0,
+          "at_risk": 1000,
+          "events": [
+            0,
+            0
+          ],
+          "censored": 300,
+          "remaining": 700,
+          "survival": "1",
+          "cumulative_incidence": [
+            "0",
+            "0"
+          ],
+          "net_risk": [
+            "0",
+            "0"
+          ],
+          "cause_hazards": [
+            "0",
+            "0"
+          ]
+        },
+        {
+          "time": 1,
+          "at_risk": 700,
+          "events": [
+            0,
+            300
+          ],
+          "censored": 0,
+          "remaining": 400,
+          "survival": "4/7",
+          "cumulative_incidence": [
+            "0",
+            "3/7"
+          ],
+          "net_risk": [
+            "0",
+            "3/7"
+          ],
+          "cause_hazards": [
+            "0",
+            "3/7"
+          ]
+        },
+        {
+          "time": 2,
+          "at_risk": 400,
+          "events": [
+            0,
+            150
+          ],
+          "censored": 250,
+          "remaining": 0,
+          "survival": "5/14",
+          "cumulative_incidence": [
+            "0",
+            "9/14"
+          ],
+          "net_risk": [
+            "0",
+            "9/14"
+          ],
+          "cause_hazards": [
+            "0",
+            "3/8"
+          ]
+        }
+      ],
+      "scope": "All subjects enter at baseline. Interpreting incidence as population probability requires suitable independent censoring and follow-up support."
+    }
+  },
+  "ties": {
+    "event_before_censor": {
+      "initial": 10,
+      "causes": [
+        "A",
+        "B"
+      ],
+      "support_end": 1,
+      "tie_convention": "Events use the pre-removal risk set; tied censoring is removed afterward.",
+      "arithmetic": "Exact rational point estimates from supplied integer counts; not confidence bounds.",
+      "points": [
+        {
+          "time": 1,
+          "at_risk": 10,
+          "events": [
+            2,
+            3
+          ],
+          "censored": 5,
+          "remaining": 0,
+          "survival": "1/2",
+          "cumulative_incidence": [
+            "1/5",
+            "3/10"
+          ],
+          "net_risk": [
+            "1/5",
+            "3/10"
+          ],
+          "cause_hazards": [
+            "1/5",
+            "3/10"
+          ]
+        }
+      ],
+      "scope": "All subjects enter at baseline. Interpreting incidence as population probability requires suitable independent censoring and follow-up support."
+    },
+    "censor_first_alternative_incidence": [
+      "2/5",
+      "3/5"
+    ],
+    "interpretation": "The alternative changes the risk-set convention; coarsened timestamps alone cannot determine the true ordering."
+  },
+  "matrix_reference": {
+    "matches_exactly": true,
+    "curve": {
+      "initial": 10,
+      "causes": [
+        "A",
+        "B"
+      ],
+      "support_end": 2,
+      "tie_convention": "Events use the pre-removal risk set; tied censoring is removed afterward.",
+      "arithmetic": "Exact rational point estimates from supplied integer counts; not confidence bounds.",
+      "points": [
+        {
+          "time": 1,
+          "at_risk": 10,
+          "events": [
+            2,
+            3
+          ],
+          "censored": 2,
+          "remaining": 3,
+          "survival": "1/2",
+          "cumulative_incidence": [
+            "1/5",
+            "3/10"
+          ],
+          "net_risk": [
+            "1/5",
+            "3/10"
+          ],
+          "cause_hazards": [
+            "1/5",
+            "3/10"
+          ]
+        },
+        {
+          "time": 2,
+          "at_risk": 3,
+          "events": [
+            1,
+            0
+          ],
+          "censored": 2,
+          "remaining": 0,
+          "survival": "1/3",
+          "cumulative_incidence": [
+            "11/30",
+            "3/10"
+          ],
+          "net_risk": [
+            "7/15",
+            "3/10"
+          ],
+          "cause_hazards": [
+            "1/3",
+            "0"
+          ]
+        }
+      ],
+      "scope": "All subjects enter at baseline. Interpreting incidence as population probability requires suitable independent censoring and follow-up support."
+    },
+    "states": [
+      {
+        "time": 1,
+        "state": [
+          "1/2",
+          "1/5",
+          "3/10"
+        ]
+      },
+      {
+        "time": 2,
+        "state": [
+          "1/3",
+          "11/30",
+          "3/10"
+        ]
+      }
+    ]
+  },
+  "scope": "Exact point calculations do not provide confidence intervals or repair informative censoring."
+}

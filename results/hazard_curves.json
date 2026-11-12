@@ -1,0 +1,142 @@
+[
+  {
+    "competing_hazard": "0",
+    "time": 1,
+    "target_incidence": "1/10",
+    "target_net_risk": "1/10",
+    "survival": "9/10"
+  },
+  {
+    "competing_hazard": "0",
+    "time": 2,
+    "target_incidence": "19/100",
+    "target_net_risk": "19/100",
+    "survival": "81/100"
+  },
+  {
+    "competing_hazard": "0",
+    "time": 3,
+    "target_incidence": "271/1000",
+    "target_net_risk": "271/1000",
+    "survival": "729/1000"
+  },
+  {
+    "competing_hazard": "0",
+    "time": 4,
+    "target_incidence": "3439/10000",
+    "target_net_risk": "3439/10000",
+    "survival": "6561/10000"
+  },
+  {
+    "competing_hazard": "0",
+    "time": 5,
+    "target_incidence": "40951/100000",
+    "target_net_risk": "40951/100000",
+    "survival": "59049/100000"
+  },
+  {
+    "competing_hazard": "1/10",
+    "time": 1,
+    "target_incidence": "1/10",
+    "target_net_risk": "1/10",
+    "survival": "4/5"
+  },
+  {
+    "competing_hazard": "1/10",
+    "time": 2,
+    "target_incidence": "9/50",
+    "target_net_risk": "19/100",
+    "survival": "16/25"
+  },
+  {
+    "competing_hazard": "1/10",
+    "time": 3,
+    "target_incidence": "61/250",
+    "target_net_risk": "271/1000",
+    "survival": "64/125"
+  },
+  {
+    "competing_hazard": "1/10",
+    "time": 4,
+    "target_incidence": "369/1250",
+    "target_net_risk": "3439/10000",
+    "survival": "256/625"
+  },
+  {
+    "competing_hazard": "1/10",
+    "time": 5,
+    "target_incidence": "2101/6250",
+    "target_net_risk": "40951/100000",
+    "survival": "1024/3125"
+  },
+  {
+    "competing_hazard": "3/10",
+    "time": 1,
+    "target_incidence": "1/10",
+    "target_net_risk": "1/10",
+    "survival": "3/5"
+  },
+  {
+    "competing_hazard": "3/10",
+    "time": 2,
+    "target_incidence": "4/25",
+    "target_net_risk": "19/100",
+    "survival": "9/25"
+  },
+  {
+    "competing_hazard": "3/10",
+    "time": 3,
+    "target_incidence": "49/250",
+    "target_net_risk": "271/1000",
+    "survival": "27/125"
+  },
+  {
+    "competing_hazard": "3/10",
+    "time": 4,
+    "target_incidence": "136/625",
+    "target_net_risk": "3439/10000",
+    "survival": "81/625"
+  },
+  {
+    "competing_hazard": "3/10",
+    "time": 5,
+    "target_incidence": "1441/6250",
+    "target_net_risk": "40951/100000",
+    "survival": "243/3125"
+  },
+  {
+    "competing_hazard": "3/5",
+    "time": 1,
+    "target_incidence": "1/10",
+    "target_net_risk": "1/10",
+    "survival": "3/10"
+  },
+  {
+    "competing_hazard": "3/5",
+    "time": 2,
+    "target_incidence": "13/100",
+    "target_net_risk": "19/100",
+    "survival": "9/100"
+  },
+  {
+    "competing_hazard": "3/5",
+    "time": 3,
+    "target_incidence": "139/1000",
+    "target_net_risk": "271/1000",
+    "survival": "27/1000"
+  },
+  {
+    "competing_hazard": "3/5",
+    "time": 4,
+    "target_incidence": "1417/10000",
+    "target_net_risk": "3439/10000",
+    "survival": "81/10000"
+  },
+  {
+    "competing_hazard": "3/5",
+    "time": 5,
+    "target_incidence": "14251/100000",
+    "target_net_risk": "40951/100000",
+    "survival": "243/100000"
+  }
+]
